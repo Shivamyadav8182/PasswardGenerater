@@ -34,11 +34,7 @@ function setPart(color){
    parent.style.boxShadow = `0px 0px 12px 1px ${color}`;
   
 }
-dataMsg.classList.add("active");
 
-setTimeout(() => {
-   dataMsg.classList.remove("active");
-}, 2000);
 
 function getRandamInteger(min,max)
 {
