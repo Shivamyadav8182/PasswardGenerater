@@ -174,7 +174,7 @@ body {
        height: 20px;
        width: 20px;
        border-radius:50% ;
-       background-color: #FFD60A;
+      linear-gradient(to right, #170024, #4b1d65, #170024);
        cursor: pointer;
        margin-top: -3px;
        box-shadow: 0px 20px ;   
