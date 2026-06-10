@@ -22,9 +22,17 @@ handleSlider();
 function handleSlider(){
    inputSlider.value = passwordLength;
    lengthDisplay.innerText = passwordLength;
-   const min = Number(inputSlider.min);
-   const max = Number(inputSlider.max);
-   inputSlider.style.backgroundSize = ((passwordLength-min)*100/(max-min)) + "% 100%";
+  const min = Number(inputSlider.min);
+const max = Number(inputSlider.max);
+
+const percentage = ((passwordLength - min) * 100) / (max - min);
+
+inputSlider.style.background =
+`linear-gradient(to right,
+#d946ef 0%,
+#d946ef ${percentage}%,
+#5b2a7a ${percentage}%,
+#5b2a7a 100%)`;
 
 }
 
