@@ -24,7 +24,7 @@ A simple and responsive Password Generator built using HTML, CSS, and JavaScript
 
 ## 📸 Preview
 
-![Password Generator](./password-generator-preview.png)
+![Password Generator](./Screenshot%202026-06-10%20074524.png)
 
 Password Generator with:
 
