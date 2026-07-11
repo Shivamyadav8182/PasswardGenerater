@@ -57,7 +57,9 @@ PasswordGenerator/
 Add your GitHub Pages link here:
 
 ```text
-https://passward-generater-gfjz6z0ri-shivamyadav8182.vercel.app
+## 🚀 Live Demo
+
+👉 [View Live Website](https://passward-generater-gfjz6z0ri-shivamyadav8182.vercel.app)
 ```
 
 ## 👨‍💻 Author
